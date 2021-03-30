@@ -1,0 +1,186 @@
+<html>
+
+<head>
+	<title>HTML and CSS Basics</title>
+	<link rel="stylesheet" href="lab5.css">
+</head>
+
+<body>
+	<div id="content">
+		<nav class="section">
+			<div class="header">
+				<h2>Table of Contents</h2>
+			</div>
+			<ol>
+				<li><a href="#HTML">HTML</a>
+					<ol>
+						<li><a href="#unorderedlists">Unordered Lists</a></li>
+						<li><a href="#orderedlists">Ordered Lists</a></li>
+						<li><a href="#tables">Tables</a></li>
+					</ol>
+				</li>
+				<li>
+					<a href="#CSS">CSS</a>
+					<ol>
+						<li><a href="#selectors">Selectors</a></li>
+						<li><a href="#websafefonts">Web Safe Fonts</a></li>
+					</ol>
+				</li>
+			</ol>
+		</nav>
+
+
+
+		<div id="HTML" class="section">
+			<div class="header">
+				<h2>HTML</h2>
+			</div>
+			<div class="description">
+				<p>Hypertext Text Markup Language </p>
+			</div>
+			<div class="subheader">
+				<h3 id="unorderedlists">Unordered Lists</h3>
+			</div>
+
+			<p> An unordered list starts with the <code>&ltul&gt</code> tag. Each list item starts with the
+				<code>&ltli&gt</code> tag.
+
+				The list items will be marked with bullets (small black circles) by default
+			</p>
+			<div class="subheader">
+				<h3 id="orderedlists">Ordered Lists</h3>
+			</div>
+			<p>An ordered list starts with the <code>&ltol&gt</code> tag. Each list item starts with the
+				<code>&ltli&gt</code> tag.
+
+				The list items will be marked with numbers by default
+			</p>
+			<div class="subheader">
+				<h3 id="tables">Tables</h3>
+			</div>
+			<h4>My Understanding of HTML and CSS</h4>
+			<table>
+				<thead>
+					<tr>
+						<th>Lab Number</th>
+						<th>Date</th>
+						<th>HTML Understanding</th>
+						<th>CSS Understanding</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>4</td>
+						<td>March 22nd 2021</td>
+						<td>Very Little</td>
+						<td>None</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>March 29th 2021</td>
+						<td>Some</td>
+						<td>Very Little</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>April 5th 2021</td>
+						<td>???</td>
+						<td>???</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>April 12th 2021</td>
+						<td>???</td>
+						<td>???</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+
+		</div>
+		<div id="CSS" class="section">
+			<div class="header">
+				<h2>CSS</h2>
+			</div>
+			<div class="description">
+				<p>Cascading Style Sheets </p>
+			</div>
+			<div class="subheader">
+				<h3 id="selectors">Selectors</h3>
+			</div>
+			<p>In CSS, selectors are patterns used to select the element(s) you want to style.</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Selector</th>
+						<th>Example</th>
+						<th>Example Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>.class</td>
+						<td>.intro</td>
+						<td class="left">Selects all elements with class="intro"</td>
+					</tr>
+					<tr>
+						<td>.class.class2</td>
+						<td>.name1.name2</td>
+						<td class="left">Selects all elements with both name1 and name2 set within its class attribute
+						</td>
+					</tr>
+					<tr>
+						<td>.class .class2</td>
+						<td>.name1 . name2</td>
+						<td class="left">Selects all elements with name2 that is a descendant of an element with name1
+						</td>
+					</tr>
+					<tr>
+						<td>#id</td>
+						<td>.#firstname</td>
+						<td class="left">Selects the element with id="firstname"</td>
+					</tr>
+					<tr>
+						<td>*</td>
+						<td>*</td>
+						<td class="left">Selects all elements</td>
+					</tr>
+					<tr>
+						<td>element</td>
+						<td>p</td>
+						<td class="left">Selects all <code>&ltp&gt</code> elements</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<div class="subheader">
+				<h3 id=websafefonts>Web Safe Fonts</h3>
+			</div>
+			<p>Web Safe Fonts are fonts which will display correctly on all major internet browsers</p>
+			<p>The following list are the best web safe fonts for HTML and CSS</p>
+			<ul>
+				<li style="font-family: arial;">Arial</li>
+				<li style="font-family: Verdana;">Verdana</li>
+				<li style="font-family: Helvetica;">Helvetica</li>
+				<li style="font-family: Tahoma;">Tahoma</li>
+				<li style="font-family: Trebuchet MS;">Trebuchet MS</li>
+				<li style="font-family: Times New Roman;">Times New Roman</li>
+				<li style="font-family: Georgia;">Georgia</li>
+				<li style="font-family: Garamond;">Garamond</li>
+				<li style="font-family: Courier New;">Courier New</li>
+				<li style="font-family: Brush Script MT;">Brush Script MT</li>
+			</ul>
+
+
+
+		</div>
+		<div class="section centered">
+			<img src="https://i.giphy.com/media/13FrpeVH09Zrb2/giphy.webp" />
+		</div>
+		<div class="section centered"><p><i>Majority of the text in this webpage was copied from w3schools.com</i></p></div>
+	</div>
+
+</body>
+
+</html>
